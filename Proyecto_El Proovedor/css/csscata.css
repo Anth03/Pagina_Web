@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .seccion-header {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .seccion-header a {
+    font-family: 'Abril Fatface', serif;
+    font-size: 24px; /* Ajusta el tamaño de la fuente según necesites */
+    font-weight: 400; /* Abril Fatface solo tiene un peso, el normal (400) */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #000; /* Cambia el color del texto si es necesario */
+    padding: 0 10px; /* Ajusta el espaciado alrededor de los enlaces si es necesario */
+    /* Otros estilos que desees aplicar a los enlaces */
+  }
+  
+  .producto-seccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .producto-container {
+    display: flex;
+    gap: 20px; /* Ajusta el espacio entre los elementos según sea necesario */
+    overflow: hidden; /* Oculta cualquier cosa que se desborde del contenedor */
+  }
+  
+  
+  
+  .producto-item img {
+    width: 470px; /* Establece el ancho fijo de la imagen */
+    height: 467px; /* Establece la altura fija de la imagen */
+    object-fit: cover; /* Esto asegura que la imagen cubra el área sin distorsionarse, puede recortar la imagen si no tiene las mismas proporciones */
+    margin-bottom: 10px;
+  }
+  
+  
+  .producto-item {
+    width: 470px; /* Ajusta el ancho del contenedor para que coincida con el de la imagen */
+    margin: 0 10px; /* Asegúrate de que el margen lateral sea adecuado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  .producto-item p {
+    font-family: 'Graduate', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    margin: 4px 0;
+    line-height: 1.6;
+  }
+  
+  .arrow {
+    cursor: pointer;
+    user-select: none;
+    padding: 0 20px;
+    font-size: 24px;
+    line-height: 100px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .arrow:hover {
+    color: #000;
+  }
+  .catalogo-header {
+    font-family: 'Abril Fatface', serif;
+    font-size: 55px;
+    /* Resto de tu CSS para el encabezado del catálogo */
+  }
+  
+

@@ -1,0 +1,79 @@
+.centrar-titulo {
+    text-align: center;
+    margin-top: 170px;
+    font-family: Arial, sans-serif;
+}
+
+.alinear-derecha {
+    margin-left: auto; /* Alinear la imagen a la derecha */
+    display: block; /* Para que el margen funcione correctamente */
+}
+
+.seccion {
+    font-weight: bold;
+    margin-top: 250px; /* Margen superior para separar las secciones */
+    margin-bottom: 250px;
+}
+
+.seccion-titulo {
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.seccion-subtitulo {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.seccion-imagen {
+    max-width: 100%;
+    height: auto;
+}
+
+.imagen-modelo-precio {
+    margin-top: 250px; /* Añade un margen inferior de 250px para separar las imágenes */
+    margin-bottom: 250px;
+}
+
+.seccion-sobre-nosotros {
+    margin-bottom: 100px; /* Margen inferior para separar la sección "Sobre Nosotros" */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
